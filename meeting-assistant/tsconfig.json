@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/web-frontend"
+    },
+    {
+      "path": "./libs/shared-types"
+    },
+    {
+      "path": "./libs/common-utils"
+    },
+    {
+      "path": "./apps/api-gateway"
+    }
+  ]
+}
