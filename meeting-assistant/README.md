@@ -107,3 +107,28 @@ And join the Nx community:
 - [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
 - [Our Youtube channel](https://www.youtube.com/@nxdevtools)
 - [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+
+
+## Integrations Feature
+
+### API Routes
+- `GET /integrations`
+- `GET /connections`
+- `POST /connections`
+- `PUT /connections/:id/token`
+- `GET /integrations/:code/schema`
+
+### Web Routes
+- `/settings/integrations`
+
+### Postman Example
+Create a connection:
+```json
+POST /connections
+{
+  "integrationCode": "jira",
+  "displayName": "Marketing Jira",
+  "config": { "projectKey": "MKT" }
+}
+```
+
