@@ -1,10 +1,12 @@
 import { Card, CardContent } from "@/components/ui/card";
+
 import { Routes, Route, Link } from "react-router-dom";
 import Integrations from "../pages/Integrations";
 
 function Home() {
   return (
     <div className="flex items-center justify-center h-full">
+
       <Card className="w-full max-w-md text-center">
         <CardContent>
           <h1 className="text-2xl font-bold mb-4">Meeting Assistant</h1>
@@ -16,6 +18,7 @@ function Home() {
     </div>
   );
 }
+
 
 export default function App() {
   return (
@@ -39,3 +42,4 @@ export default function App() {
     </div>
   );
 }
+
