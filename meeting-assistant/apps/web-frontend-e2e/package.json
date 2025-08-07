@@ -1,0 +1,10 @@
+{
+  "name": "@meeting-assistant/web-frontend-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@meeting-assistant/web-frontend"
+    ]
+  }
+}
